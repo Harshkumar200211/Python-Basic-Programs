@@ -1,8 +1,8 @@
-# Python Programming: Basic to Advanced — 110 Programs
+# Python Programming: Basic to Advanced — 110 Programs + 15 Projects
 
 A structured Python revision repository by **Professor Harsh**, designed for learners to move from fundamentals to practical problem-solving.
 
-**110 standalone Python files • 6 learning levels • no screenshot/output folder • no third-party packages required**
+**110 practice programs • 15 beginner projects • 6 learning levels • console-only projects • no output screenshots**
 
 ## Learning approach
 
@@ -22,6 +22,7 @@ python 01_Basics/01_hello_world.py
 python 02_Control_Flow_and_Loops/39_sum_even_squares.py
 python 06_Advanced_Practice/100_student_marks_report.py
 python 06_Advanced_Practice/110_simple_email_check.py
+python 07_Beginner_Projects/01_Menu_Driven_Calculator/main.py
 ```
 
 On some systems, use `python3` instead of `python`.
@@ -36,6 +37,7 @@ On some systems, use `python3` instead of `python`.
 | [Level 4 — Functions, OOP, Files and Exceptions](#level-4--functions-recursion-oop-files-and-exceptions) | 66–85 | Functions, recursion, lambdas, classes, files, exceptions, CSV |
 | [Level 5 — Modules and Standard Library](#level-5--modules-and-standard-library) | 86–95 | math, random, statistics, datetime, calendar, os, sys, json, re and collections |
 | [Level 6 — Advanced Practice and Mini Projects](#level-6--advanced-practice-and-mini-projects) | 96–110 | Games, algorithms, strings, list processing, contact book and mini-projects |
+| [Beginner Project Lab](07_Beginner_Projects/README.md) | 15 projects | Console applications, persistent JSON data, custom modules and packages |
 
 ## Complete program index
 
@@ -181,6 +183,30 @@ On some systems, use `python3` instead of `python`.
 | 109 | [Word Frequency in a Paragraph](06_Advanced_Practice/109_word_frequency_paragraph.py) | `109_word_frequency_paragraph.py` |
 | 110 | [Simple Email Format Check](06_Advanced_Practice/110_simple_email_check.py) | `110_simple_email_check.py` |
 
+## Beginner Project Lab — 15 Console Projects
+
+These student projects are separate from the 110 individual practice programs. They demonstrate how to turn Python basics into small, working applications. All projects are **terminal-based**: they do not include a graphical or web frontend.
+
+| No. | Project | What it does | Main concepts |
+|---:|---|---|---|
+| 01 | [Menu-Driven Calculator](07_Beginner_Projects/01_Menu_Driven_Calculator/main.py) | Repeating menu for arithmetic operations. | Input, functions, conditions, loops |
+| 02 | [Student Grade Calculator](07_Beginner_Projects/02_Student_Grade_Calculator/main.py) | Total, percentage, pass/fail and grade. | Lists, loops, conditions |
+| 03 | [MCQ Quiz App](07_Beginner_Projects/03_MCQ_Quiz_App/main.py) | Asks questions and calculates a score. | Lists, dictionaries, loops |
+| 04 | [Number Guessing Game](07_Beginner_Projects/04_Number_Guessing_Game/main.py) | Guess a random number with limited attempts. | random, loops, try-except |
+| 05 | [Unit Converter](07_Beginner_Projects/05_Unit_Converter/main.py) | Convert distance, temperature and weight. | Functions, arithmetic, menus |
+| 06 | [Student Record Manager](07_Beginner_Projects/06_Student_Record_Manager/main.py) | Add, view, search and delete student records. | Dictionaries, JSON, files |
+| 07 | [Daily Attendance Manager](07_Beginner_Projects/07_Attendance_Manager/main.py) | Mark attendance and calculate percentages. | Dates, dictionaries, JSON |
+| 08 | [Contact Book](07_Beginner_Projects/08_Contact_Book/main.py) | Store and manage contacts. | Dictionaries, JSON, functions |
+| 09 | [Expense Tracker](07_Beginner_Projects/09_Expense_Tracker/main.py) | Save expenses and summarize categories. | Lists, dictionaries, JSON |
+| 10 | [Library Management System](07_Beginner_Projects/10_Library_Management_System/main.py) | Add books, issue and return books. | Dictionaries, JSON, conditions |
+| 11 | [Inventory and Billing](07_Beginner_Projects/11_Inventory_Billing_System/main.py) | Build a cart and calculate a bill with sample tax. | Nested dictionaries, totals, loops |
+| 12 | [Calculator with Custom Modules](07_Beginner_Projects/12_Custom_Modules_Calculator/main.py) | Reuse arithmetic and geometry functions from different files. | Modules, imports, functions |
+| 13 | [Student Manager with a Package](07_Beginner_Projects/13_Custom_Package_Student_Manager/main.py) | Organize student data and marks logic into a package. | Packages, `__init__.py`, classes |
+| 14 | [Calendar and Attendance Planner](07_Beginner_Projects/14_Calendar_Attendance_Planner/main.py) | Display calendars and save dated notes. | calendar, datetime, JSON |
+| 15 | [Text File Analyzer](07_Beginner_Projects/15_Text_File_Analyzer/main.py) | Count lines, words and frequent words in a text file. | Files, pathlib, re, Counter |
+
+Every project folder includes its own `README.md` with the purpose, Python concepts, step-by-step logic and run instructions. Start with the [complete project guide and index](07_Beginner_Projects/README.md).
+
 ## How to practise effectively
 
 1. Read the problem name and predict what the program should do.
@@ -194,4 +220,4 @@ On some systems, use `python3` instead of `python`.
 - All examples use Python's standard library, including the dedicated module practice in Programs 86–95.
 - File-handling examples create their sample files in the current working directory.
 - The email and password examples are basic learning demonstrations, not production-grade validators.
-- The repository intentionally contains source code only; there are no output screenshots.
+- The repository contains Python source code and learning documentation only; there are no output screenshots. The 15 beginner projects are console-based and include no frontend.
