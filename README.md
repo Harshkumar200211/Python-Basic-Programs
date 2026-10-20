@@ -1,4 +1,6 @@
 # Python Programming: Basic to Advanced — 110 Programs + 15 Projects
+[![Python Repository Checks](https://github.com/Harshkumar200211/Python-Basic-Programs/actions/workflows/python-projects-check.yml/badge.svg?branch=main)](https://github.com/Harshkumar200211/Python-Basic-Programs/actions/workflows/python-projects-check.yml)
+
 
 A structured Python revision repository by **Professor Harsh**, designed for learners to move from fundamentals to practical problem-solving.
 
@@ -29,7 +31,7 @@ On some systems, use `python3` instead of `python`.
 
 ## Automated checks
 
-GitHub Actions compiles all Python files in the six practice levels and the beginner projects. It also runs sample-input/expected-output checks for all 110 numbered practice programs and smoke tests for the 15 console projects. See [TESTING.md](TESTING.md) for the scope and limitations of these checks.
+GitHub Actions compiles all Python files in the six practice levels and the beginner projects. It also runs sample-input/expected-output checks for all 110 numbered practice programs and smoke tests for the 15 console projects. See [TESTING.md](TESTING.md) for the scope and limitations of these checks. For contribution rules and how to add new examples, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Learning roadmap
 

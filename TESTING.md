@@ -2,7 +2,7 @@
 
 ## What runs automatically
 
-GitHub Actions uses Python 3.12 and performs three checks:
+The GitHub Actions validation environment uses Python 3.12 and performs three checks:
 
 1. Compiles every Python source file in the six numbered practice folders and `07_Beginner_Projects`, plus the test scripts.
 2. Runs all 110 numbered practice programs with a representative input (where needed) and checks for an expected output fragment.
@@ -25,3 +25,5 @@ Use `python3` instead of `python` if that is how Python is installed on your sys
 ## Important limitation
 
 These are repeatable smoke tests, not exhaustive proofs that every code path is correct. Each numbered practice program gets at least one representative run and expected-output check; edge cases and alternate paths may need additional tests. The project checks likewise use one scripted user journey per project. A passing workflow means all checks above passed for that commit, not that every possible input has been tested.
+
+The workflow currently checks Python 3.12 only; it does not yet run a multi-version compatibility matrix.
