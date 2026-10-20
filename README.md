@@ -1,8 +1,8 @@
-# Python Programming: Basic to Advanced — 100 Programs
+# Python Programming: Basic to Advanced — 110 Programs
 
 A structured Python revision repository by **Professor Harsh**, designed for learners to move from fundamentals to practical problem-solving.
 
-**100 standalone Python files • 6 learning levels • no screenshot/output folder • no third-party packages required**
+**110 standalone Python files • 6 learning levels • no screenshot/output folder • no third-party packages required**
 
 ## Learning approach
 
@@ -21,6 +21,7 @@ Each program contains a simple, self-contained example with readable variable na
 python 01_Basics/01_hello_world.py
 python 02_Control_Flow_and_Loops/39_sum_even_squares.py
 python 06_Advanced_Practice/100_student_marks_report.py
+python 06_Advanced_Practice/110_simple_email_check.py
 ```
 
 On some systems, use `python3` instead of `python`.
@@ -34,7 +35,7 @@ On some systems, use `python3` instead of `python`.
 | [Level 3 — Data Structures and Problem Solving](#level-3--lists-strings-dictionaries-and-matrices) | 46–65 | Lists, strings, dictionaries, search/sort, matrices |
 | [Level 4 — Functions, OOP, Files and Exceptions](#level-4--functions-recursion-oop-files-and-exceptions) | 66–85 | Functions, recursion, lambdas, classes, files, exceptions, CSV |
 | [Level 5 — Modules and Standard Library](#level-5--modules-and-standard-library) | 86–95 | math, random, statistics, datetime, calendar, os, sys, json, re and collections |
-| [Level 6 — Advanced Practice and Mini Projects](#level-6--advanced-practice-and-mini-projects) | 96–100 | Guessing game, password checks, contact book, expense tracker and student report |
+| [Level 6 — Advanced Practice and Mini Projects](#level-6--advanced-practice-and-mini-projects) | 96–110 | Games, algorithms, strings, list processing, contact book and mini-projects |
 
 ## Complete program index
 
@@ -169,6 +170,16 @@ On some systems, use `python3` instead of `python`.
 | 98 | [Mini Project: Contact Book](06_Advanced_Practice/98_contact_book.py) | `98_contact_book.py` |
 | 99 | [Mini Project: Expense Tracker](06_Advanced_Practice/99_expense_tracker.py) | `99_expense_tracker.py` |
 | 100 | [Mini Project: Student Marks Report](06_Advanced_Practice/100_student_marks_report.py) | `100_student_marks_report.py` |
+| 101 | [Find Two Numbers with a Target Sum](06_Advanced_Practice/101_two_sum.py) | `101_two_sum.py` |
+| 102 | [FizzBuzz Challenge](06_Advanced_Practice/102_fizzbuzz.py) | `102_fizzbuzz.py` |
+| 103 | [Check Whether Two Strings Are Anagrams](06_Advanced_Practice/103_anagram_check.py) | `103_anagram_check.py` |
+| 104 | [Find the Most Common List Value](06_Advanced_Practice/104_most_common_list_value.py) | `104_most_common_list_value.py` |
+| 105 | [Merge Two Sorted Lists](06_Advanced_Practice/105_merge_sorted_lists.py) | `105_merge_sorted_lists.py` |
+| 106 | [Sum of Main Diagonal in a Matrix](06_Advanced_Practice/106_matrix_diagonal_sum.py) | `106_matrix_diagonal_sum.py` |
+| 107 | [Binary Search in a Sorted List](06_Advanced_Practice/107_binary_search.py) | `107_binary_search.py` |
+| 108 | [Sort a List Using Selection Sort](06_Advanced_Practice/108_selection_sort.py) | `108_selection_sort.py` |
+| 109 | [Word Frequency in a Paragraph](06_Advanced_Practice/109_word_frequency_paragraph.py) | `109_word_frequency_paragraph.py` |
+| 110 | [Simple Email Format Check](06_Advanced_Practice/110_simple_email_check.py) | `110_simple_email_check.py` |
 
 ## How to practise effectively
 
