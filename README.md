@@ -205,7 +205,7 @@ These student projects are separate from the 110 individual practice programs. T
 | 14 | [Calendar and Attendance Planner](07_Beginner_Projects/14_Calendar_Attendance_Planner/main.py) | Display calendars and save dated notes. | calendar, datetime, JSON |
 | 15 | [Text File Analyzer](07_Beginner_Projects/15_Text_File_Analyzer/main.py) | Count lines, words and frequent words in a text file. | Files, pathlib, re, Counter |
 
-Every project folder includes its own `README.md` with the purpose, Python concepts, step-by-step logic and run instructions. Start with the [complete project guide and index](07_Beginner_Projects/README.md).
+Every project folder includes its own `README.md` with the purpose, Python concepts, step-by-step logic and run instructions. Start with the [complete project guide and index](07_Beginner_Projects/README.md). A GitHub Actions workflow compiles the project files and smoke-tests all 15 projects with sample input; [view the workflow](https://github.com/Harshkumar200211/Python-Basic-Programs/actions/workflows/python-projects-check.yml).
 
 ## How to practise effectively
 
