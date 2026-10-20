@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="249" viewBox="0 0 1200 249">
+  <rect width="1200" height="249" rx="20" fill="#0b1220"/>
+  <rect x="26" y="24" width="1148" height="201" rx="18" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <path d="M44 24 H1156 Q1174 24 1174 42 V72 H26 V42 Q26 24 44 24Z" fill="#1f2937"/>
+  <circle cx="54" cy="48" r="6" fill="#fb7185"/><circle cx="78" cy="48" r="6" fill="#fbbf24"/><circle cx="102" cy="48" r="6" fill="#34d399"/>
+  <text x="600" y="54" fill="#cbd5e1" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18">04_swap_numbers.py</text>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace"><text x="54" y="102" fill="#93c5fd" font-size="24">$ python 04_swap_numbers.py</text>
+  <text x="54" y="141" fill="#86efac" font-size="24">Before swapping: 10 20</text>
+  <text x="54" y="180" fill="#86efac" font-size="24">After swapping: 20 10</text></g>
+</svg>
