@@ -1,25 +1,54 @@
-# Python Programming: Basic to Advanced
+<div align="center">
 
-[![Python Repository Checks](https://github.com/Harshkumar200211/Python-Basic-Programs/actions/workflows/python-projects-check.yml/badge.svg?branch=main)](https://github.com/Harshkumar200211/Python-Basic-Programs/actions/workflows/python-projects-check.yml)
-[![Tested with Python 3.12](https://img.shields.io/badge/tested%20with-Python%203.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<h1>🐍 Python Programming: Basic to Advanced</h1>
 
-A structured, student-friendly Python learning resource by **Professor Harsh**. Start with the fundamentals, practise problem-solving step by step, and progress towards data structures, object-oriented programming, file handling, and small console applications.
+<p><strong>A clear, step-by-step Python learning path for beginners, students, and self-learners.</strong></p>
 
-**110 practice programs · 15 beginner projects · 6 learning levels · Automated checks**
+<p>Curated by <strong>Professor Harsh</strong> — learn the fundamentals, practise problem-solving, and build small working applications.</p>
 
-## Start here
+<p>
+  <a href="https://github.com/Harshkumar200211/Python-Basic-Programs/actions/workflows/python-projects-check.yml"><img src="https://github.com/Harshkumar200211/Python-Basic-Programs/actions/workflows/python-projects-check.yml/badge.svg?branch=main" alt="Python Repository Checks"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Tested%20with-Python%203.12-3776AB?logo=python&logoColor=white" alt="Tested with Python 3.12"></a>
+  <img src="https://img.shields.io/badge/Practice%20Programs-110-2ea44f" alt="110 practice programs">
+  <img src="https://img.shields.io/badge/Beginner%20Projects-15-8957e5" alt="15 beginner projects">
+  <img src="https://img.shields.io/badge/Learning%20Levels-6-f0883e" alt="6 learning levels">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License"></a>
+</p>
 
-- [Quick start](#quick-start) — install Python and run your first examples
-- [Learning roadmap](#learning-roadmap) — choose a level to study
-- [Complete program index](#complete-program-index) — browse all 110 practice programs
-- [Beginner Project Lab](#beginner-project-lab--15-console-projects) — explore 15 practical projects
-- [Automated checks](#automated-checks) — see what the tests cover
-- [How to practise effectively](#how-to-practise-effectively) — suggested study workflow
-- [Contributing guide](CONTRIBUTING.md) · [Testing guide](TESTING.md) · [License](LICENSE)
+<p><em>Read → Predict → Trace → Run → Test → Explain</em></p>
+
+</div>
 
 ---
 
+## ✨ What's in this repository?
+
+| Included | What you'll find |
+|---|---|
+| 📘 **110 practice programs** | Numbered, easy-to-follow examples arranged from Python basics to problem-solving and more advanced practice. |
+| 🧭 **6 learning levels** | Input/output, operators, conditions, loops, lists, strings, dictionaries, functions, OOP, files, exceptions, modules, and algorithms. |
+| 🛠️ **15 beginner projects** | Small, terminal-based applications with individual guides, run instructions, and the concepts each project teaches. |
+| ✅ **Automated checks** | GitHub Actions compiles the Python files, checks representative runs of all 110 programs, and smoke-tests all 15 projects. |
+| 🎓 **Made for learning** | Useful for classroom practice, independent study, revision, and building confidence before larger projects. |
+
+**New to Python?** Start at Level 1, run each file yourself, change the example inputs, and move to the next level only when you can explain how the program works.
+
+## 🧭 Quick navigation
+
+| I want to… | Go to |
+|---|---|
+| Set up Python and run my first program | [Quick start](#quick-start) |
+| Choose what to learn next | [Learning roadmap](#learning-roadmap) |
+| Browse all 110 examples | [Complete program index](#complete-program-index) |
+| Build practical console applications | [Beginner Project Lab — 15 projects](#beginner-project-lab--15-console-projects) |
+| Understand what CI checks do | [Automated checks](#automated-checks) |
+| Learn the recommended practice routine | [How to practise effectively](#how-to-practise-effectively) |
+| Add an example or contribute | [Contributing guide](CONTRIBUTING.md) |
+| Run or understand the test suite | [Testing guide](TESTING.md) |
+| Read reuse and distribution terms | [MIT License](LICENSE) |
+
+---
+ 
 ## Learning approach
 
 **Read → Predict → Trace → Run → Test → Explain**
