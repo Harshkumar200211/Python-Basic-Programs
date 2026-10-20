@@ -1,0 +1,46 @@
+name: Bug report
+description: Report an incorrect result, runtime error, or unclear Python example
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve this learning repository. Please include enough detail to reproduce the problem.
+  - type: input
+    id: program_path
+    attributes:
+      label: Program or project path
+      description: For example, 01_Basics/04_add_two_numbers.py
+      placeholder: Folder/file name
+    validations:
+      required: true
+  - type: input
+    id: python_version
+    attributes:
+      label: Python version
+      placeholder: "e.g. Python 3.12"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include sample inputs and the command you ran.
+      placeholder: What did you run, and what input did you enter?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      placeholder: What should the program do?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: Include the error message, if any.
+      render: text
+    validations:
+      required: true
