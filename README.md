@@ -1,10 +1,24 @@
-# Python Programming: Basic to Advanced — 110 Programs + 15 Projects
+# Python Programming: Basic to Advanced
+
 [![Python Repository Checks](https://github.com/Harshkumar200211/Python-Basic-Programs/actions/workflows/python-projects-check.yml/badge.svg?branch=main)](https://github.com/Harshkumar200211/Python-Basic-Programs/actions/workflows/python-projects-check.yml)
+[![Tested with Python 3.12](https://img.shields.io/badge/tested%20with-Python%203.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+A structured, student-friendly Python learning resource by **Professor Harsh**. Start with the fundamentals, practise problem-solving step by step, and progress towards data structures, object-oriented programming, file handling, and small console applications.
 
-A structured Python revision repository by **Professor Harsh**, designed for learners to move from fundamentals to practical problem-solving.
+**110 practice programs · 15 beginner projects · 6 learning levels · Automated checks**
 
-**110 practice programs • 15 beginner projects • 6 learning levels • console-only projects • no output screenshots**
+## Start here
+
+- [Quick start](#quick-start) — install Python and run your first examples
+- [Learning roadmap](#learning-roadmap) — choose a level to study
+- [Complete program index](#complete-program-index) — browse all 110 practice programs
+- [Beginner Project Lab](#beginner-project-lab--15-console-projects) — explore 15 practical projects
+- [Automated checks](#automated-checks) — see what the tests cover
+- [How to practise effectively](#how-to-practise-effectively) — suggested study workflow
+- [Contributing guide](CONTRIBUTING.md) · [Testing guide](TESTING.md) · [License](LICENSE)
+
+---
 
 ## Learning approach
 
@@ -28,6 +42,24 @@ python 07_Beginner_Projects/01_Menu_Driven_Calculator/main.py
 ```
 
 On some systems, use `python3` instead of `python`.
+
+## Example run
+
+Try the addition program from the repository root:
+
+```bash
+python 01_Basics/04_add_two_numbers.py
+```
+
+Example session:
+
+```text
+Enter first number: 10
+Enter second number: 20
+Sum = 30
+```
+
+The examples are intentionally small so learners can read the code, predict the result, run it, and then experiment with different inputs.
 
 ## Automated checks
 
