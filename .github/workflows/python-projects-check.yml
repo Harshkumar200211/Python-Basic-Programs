@@ -1,0 +1,29 @@
+name: Python Project Checks
+
+on:
+  push:
+    paths:
+      - "07_Beginner_Projects/**"
+      - ".github/scripts/smoke_test_projects.py"
+      - ".github/workflows/python-projects-check.yml"
+  pull_request:
+    paths:
+      - "07_Beginner_Projects/**"
+      - ".github/scripts/smoke_test_projects.py"
+      - ".github/workflows/python-projects-check.yml"
+  workflow_dispatch:
+
+jobs:
+  syntax-and-smoke-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile project source files
+        run: python -m compileall -q 07_Beginner_Projects .github/scripts/smoke_test_projects.py
+      - name: Run sample-input smoke tests
+        run: python .github/scripts/smoke_test_projects.py
