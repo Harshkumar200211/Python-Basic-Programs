@@ -1,0 +1,40 @@
+name: Exercise or project suggestion
+description: Suggest a Python exercise, improvement, or beginner project
+title: "[Suggestion]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggestions should help learners practise a clear Python concept or build a useful beginner-level project.
+  - type: dropdown
+    id: suggestion_type
+    attributes:
+      label: Type of suggestion
+      options:
+        - New practice program
+        - New beginner project
+        - Improve existing explanation
+        - Improve tests or documentation
+    validations:
+      required: true
+  - type: input
+    id: learning_level
+    attributes:
+      label: Recommended learning level
+      placeholder: "e.g. Beginner, loops, lists, OOP"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What should be added or improved?
+      description: Explain the idea and what learners should be able to practise.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example input/output or acceptance criteria
+      description: Optional, but helpful for making the suggestion specific.
+    validations:
+      required: false
