@@ -2,13 +2,13 @@
 
 A structured Python revision repository by **Professor Harsh**, designed for learners to move from fundamentals to practical problem-solving.
 
-**100 standalone Python files • 5 learning levels • no screenshot/output folder • no third-party packages required**
+**100 standalone Python files • 6 learning levels • no screenshot/output folder • no third-party packages required**
 
 ## Learning approach
 
 **Read → Predict → Trace → Run → Test → Explain**
 
-Each program contains a simple, self-contained example with readable variable names. Start with the basics, then progressively practise conditions, loops, collections, algorithms, functions, OOP, file handling and mini-projects.
+Each program contains a simple, self-contained example with readable variable names. Start with the basics, then progressively practise conditions, loops, collections, algorithms, functions, OOP, standard-library modules, file handling and mini-projects.
 
 ## Quick start
 
@@ -20,7 +20,7 @@ Each program contains a simple, self-contained example with readable variable na
 ```bash
 python 01_Basics/01_hello_world.py
 python 02_Control_Flow_and_Loops/39_sum_even_squares.py
-python 05_Advanced_Practice/100_student_marks_report.py
+python 06_Advanced_Practice/100_student_marks_report.py
 ```
 
 On some systems, use `python3` instead of `python`.
@@ -33,7 +33,8 @@ On some systems, use `python3` instead of `python`.
 | [Level 2 — Conditions, Loops and Number Logic](#level-2--conditions-loops-and-number-logic) | 21–45 | Loops, number problems, primes, patterns, break/continue |
 | [Level 3 — Data Structures and Problem Solving](#level-3--lists-strings-dictionaries-and-matrices) | 46–65 | Lists, strings, dictionaries, search/sort, matrices |
 | [Level 4 — Functions, OOP, Files and Exceptions](#level-4--functions-recursion-oop-files-and-exceptions) | 66–85 | Functions, recursion, lambdas, classes, files, exceptions, CSV |
-| [Level 5 — Advanced Practice and Mini Projects](#level-5--advanced-practice-and-mini-projects) | 86–100 | Algorithms, text processing, validation and mini-projects |
+| [Level 5 — Modules and Standard Library](#level-5--modules-and-standard-library) | 86–95 | math, random, statistics, datetime, calendar, os, sys, json, re and collections |
+| [Level 6 — Advanced Practice and Mini Projects](#level-6--advanced-practice-and-mini-projects) | 96–100 | Guessing game, password checks, contact book, expense tracker and student report |
 
 ## Complete program index
 
@@ -142,25 +143,32 @@ On some systems, use `python3` instead of `python`.
 | 84 | [Write and Read a CSV File](04_Functions_OOP_Files/84_csv_write_read.py) | `84_csv_write_read.py` |
 | 85 | [Display Current Date and Time](04_Functions_OOP_Files/85_datetime_now.py) | `85_datetime_now.py` |
 
-### Level 5 — Advanced Practice and Mini Projects
+### Level 5 — Modules and Standard Library
+
+**Programs 86–95** cover useful built-in Python modules. These modules are included with Python, so no `pip install` is needed.
 
 | No. | Program | Python file |
 |---:|---|---|
-| 86 | [Find Two Numbers with a Target Sum](05_Advanced_Practice/86_two_sum.py) | `86_two_sum.py` |
-| 87 | [FizzBuzz Challenge](05_Advanced_Practice/87_fizzbuzz.py) | `87_fizzbuzz.py` |
-| 88 | [Check Whether Two Strings Are Anagrams](05_Advanced_Practice/88_anagram_check.py) | `88_anagram_check.py` |
-| 89 | [Find the Most Common List Value](05_Advanced_Practice/89_most_common_list_value.py) | `89_most_common_list_value.py` |
-| 90 | [Merge Two Sorted Lists](05_Advanced_Practice/90_merge_sorted_lists.py) | `90_merge_sorted_lists.py` |
-| 91 | [Sum of Main Diagonal in a Matrix](05_Advanced_Practice/91_matrix_diagonal_sum.py) | `91_matrix_diagonal_sum.py` |
-| 92 | [Binary Search in a Sorted List](05_Advanced_Practice/92_binary_search.py) | `92_binary_search.py` |
-| 93 | [Sort a List Using Selection Sort](05_Advanced_Practice/93_selection_sort.py) | `93_selection_sort.py` |
-| 94 | [Word Frequency in a Paragraph](05_Advanced_Practice/94_word_frequency_paragraph.py) | `94_word_frequency_paragraph.py` |
-| 95 | [Simple Email Format Check](05_Advanced_Practice/95_simple_email_check.py) | `95_simple_email_check.py` |
-| 96 | [Number Guessing Game](05_Advanced_Practice/96_guess_number.py) | `96_guess_number.py` |
-| 97 | [Basic Password Strength Checker](05_Advanced_Practice/97_password_strength.py) | `97_password_strength.py` |
-| 98 | [Mini Project: Contact Book](05_Advanced_Practice/98_contact_book.py) | `98_contact_book.py` |
-| 99 | [Mini Project: Expense Tracker](05_Advanced_Practice/99_expense_tracker.py) | `99_expense_tracker.py` |
-| 100 | [Mini Project: Student Marks Report](05_Advanced_Practice/100_student_marks_report.py) | `100_student_marks_report.py` |
+| 86 | [Practice the math Module](05_Modules_and_Standard_Library/86_math_module.py) | `86_math_module.py` |
+| 87 | [Generate Values with random](05_Modules_and_Standard_Library/87_random_module.py) | `87_random_module.py` |
+| 88 | [Calculate Statistics](05_Modules_and_Standard_Library/88_statistics_module.py) | `88_statistics_module.py` |
+| 89 | [Work with Dates and Times](05_Modules_and_Standard_Library/89_datetime_module.py) | `89_datetime_module.py` |
+| 90 | [Display a Calendar](05_Modules_and_Standard_Library/90_calendar_module.py) | `90_calendar_module.py` |
+| 91 | [Explore Files and Folders with os](05_Modules_and_Standard_Library/91_os_module.py) | `91_os_module.py` |
+| 92 | [Inspect Python Runtime with sys](05_Modules_and_Standard_Library/92_sys_module.py) | `92_sys_module.py` |
+| 93 | [Convert Data with JSON](05_Modules_and_Standard_Library/93_json_module.py) | `93_json_module.py` |
+| 94 | [Find Text Patterns with re](05_Modules_and_Standard_Library/94_re_module.py) | `94_re_module.py` |
+| 95 | [Count Items with collections.Counter](05_Modules_and_Standard_Library/95_collections_counter.py) | `95_collections_counter.py` |
+
+### Level 6 — Advanced Practice and Mini Projects
+
+| No. | Program | Python file |
+|---:|---|---|
+| 96 | [Number Guessing Game](06_Advanced_Practice/96_guess_number.py) | `96_guess_number.py` |
+| 97 | [Basic Password Strength Checker](06_Advanced_Practice/97_password_strength.py) | `97_password_strength.py` |
+| 98 | [Mini Project: Contact Book](06_Advanced_Practice/98_contact_book.py) | `98_contact_book.py` |
+| 99 | [Mini Project: Expense Tracker](06_Advanced_Practice/99_expense_tracker.py) | `99_expense_tracker.py` |
+| 100 | [Mini Project: Student Marks Report](06_Advanced_Practice/100_student_marks_report.py) | `100_student_marks_report.py` |
 
 ## How to practise effectively
 
@@ -172,7 +180,7 @@ On some systems, use `python3` instead of `python`.
 
 ## Repository notes
 
-- All examples use Python's standard library.
+- All examples use Python's standard library, including the dedicated module practice in Programs 86–95.
 - File-handling examples create their sample files in the current working directory.
 - The email and password examples are basic learning demonstrations, not production-grade validators.
 - The repository intentionally contains source code only; there are no output screenshots.
