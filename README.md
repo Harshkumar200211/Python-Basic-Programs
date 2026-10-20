@@ -27,6 +27,10 @@ python 07_Beginner_Projects/01_Menu_Driven_Calculator/main.py
 
 On some systems, use `python3` instead of `python`.
 
+## Automated checks
+
+GitHub Actions compiles all Python files in the six practice levels and the beginner projects. It also runs sample-input/expected-output checks for all 110 numbered practice programs and smoke tests for the 15 console projects. See [TESTING.md](TESTING.md) for the scope and limitations of these checks.
+
 ## Learning roadmap
 
 | Level | Program numbers | Main topics |

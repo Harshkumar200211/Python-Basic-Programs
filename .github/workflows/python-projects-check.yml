@@ -1,16 +1,32 @@
-name: Python Project Checks
+name: Python Repository Checks
 
 on:
   push:
     paths:
+      - "01_Basics/**"
+      - "02_Control_Flow_and_Loops/**"
+      - "03_Data_Structures_and_Problem_Solving/**"
+      - "04_Functions_OOP_Files/**"
+      - "05_Modules_and_Standard_Library/**"
+      - "06_Advanced_Practice/**"
       - "07_Beginner_Projects/**"
-      - ".github/scripts/smoke_test_projects.py"
+      - ".github/scripts/**"
       - ".github/workflows/python-projects-check.yml"
+      - "README.md"
+      - "TESTING.md"
   pull_request:
     paths:
+      - "01_Basics/**"
+      - "02_Control_Flow_and_Loops/**"
+      - "03_Data_Structures_and_Problem_Solving/**"
+      - "04_Functions_OOP_Files/**"
+      - "05_Modules_and_Standard_Library/**"
+      - "06_Advanced_Practice/**"
       - "07_Beginner_Projects/**"
-      - ".github/scripts/smoke_test_projects.py"
+      - ".github/scripts/**"
       - ".github/workflows/python-projects-check.yml"
+      - "README.md"
+      - "TESTING.md"
   workflow_dispatch:
 
 jobs:
@@ -23,7 +39,18 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Compile project source files
-        run: python -m compileall -q 07_Beginner_Projects .github/scripts/smoke_test_projects.py
-      - name: Run sample-input smoke tests
+      - name: Compile all Python sources
+        run: >-
+          python -m compileall -q
+          01_Basics
+          02_Control_Flow_and_Loops
+          03_Data_Structures_and_Problem_Solving
+          04_Functions_OOP_Files
+          05_Modules_and_Standard_Library
+          06_Advanced_Practice
+          07_Beginner_Projects
+          .github/scripts
+      - name: Test all 110 practice programs
+        run: python .github/scripts/test_practice_programs.py
+      - name: Smoke-test all 15 beginner projects
         run: python .github/scripts/smoke_test_projects.py
