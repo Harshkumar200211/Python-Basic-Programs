@@ -73,3 +73,7 @@ Projects 12 and 13 deliberately use more than one source file to demonstrate imp
 - Inventory in Project 11 is an in-memory demonstration and resets after exit.
 - Attendance, contact, student and expense examples are for learning; they are not secure production systems.
 - No project has a graphical or web frontend. All interaction is through the terminal.
+
+## Automated code checks
+
+A GitHub Actions workflow compiles the Python source files and runs each of the 15 projects with sample input. The latest run passed all 15 smoke tests. [View project checks](https://github.com/Harshkumar200211/Python-Basic-Programs/actions/workflows/python-projects-check.yml).
